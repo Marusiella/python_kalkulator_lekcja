@@ -10,7 +10,6 @@ def jakas_tan(spliter, inx):
         return [float(odp[0]), float(odp[1])]
 
 
-work = []
 while True:
     inx = input("Podaj działanie: ")
     dodawanie = jakas_tan("+", inx)
@@ -26,7 +25,6 @@ while True:
     if mnozenie != False:
         print("mnozenie")
         print(mnozenie[0]*mnozenie[1])
-    if dzielenie != False:  
+    if dzielenie != False:
         print("dzielenie")
         print(dzielenie[0]/dzielenie[1])
-
